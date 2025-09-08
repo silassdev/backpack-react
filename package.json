@@ -4,11 +4,15 @@
   "private": true,
   "dependencies": {
     "@skyscanner/backpack-react-scripts": "11.2.2",
+    "@skyscanner/backpack-web": "^38.9.0",
     "@skyscanner/cra-template-backpack": "0.0.9",
+    "bpk-react-utils": "^7.1.0",
+    "bpk-stylesheets": "^9.0.17",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
   "scripts": {
+    "dev": "react-scripts start",
     "start": "react-scripts start",
     "start-ssr": "react-scripts start-ssr",
     "build": "react-scripts build",
@@ -27,5 +31,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.92.1"
   }
 }
